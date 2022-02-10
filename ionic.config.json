@@ -1,0 +1,7 @@
+{
+  "name": "component-icon-defaults",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
