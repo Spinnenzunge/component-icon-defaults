@@ -1,20 +1,31 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
       Blank
     </ion-title>
   </ion-toolbar>
+
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-icon slot="start" name="search-sharp"></ion-icon>
+      <ion-label>
+        <h2>search-sharp</h2>
+        <p>Using ion-icon works</p>
+      </ion-label>
+    </ion-item>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-item>
+      <ion-icon slot="start" name="search-outline"></ion-icon>
+      <ion-label>
+        <h2>search-outline</h2>
+        <p>Using ion-icon works</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
